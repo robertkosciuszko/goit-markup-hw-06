@@ -59,21 +59,7 @@
               DLA WASZEGO BIZNESU
             </h1>
             <button class="order" type="submit"data-modal-open>Zamów usługe</button>
-<div class="backdrop is-hidden" data-modal><div class="modal"><button data-modal-close>
-
-<form class="myform">
-   
-   <fieldset class="fieldset"><label class="label" for="name">Imie</label>
-     <svg class="namecheckbox">
-     <use
-    href="./images/icons.svg#icon-namecheckbox"
-    width="12"
-    height="12"
-    ></use>
-   </svg>
-  <input class="input" type="text" id="name"/> 
-  </fieldset> 
-</form>
+<div class="backdrop is-hidden" data-modal><div class="modal"><button class="modal-btn" data-modal-close>
 <span><svg class="wectorx">
                 <use
                   href="./images/icons.svg#icon-Vector-14"
@@ -82,8 +68,65 @@
                   x="9"
                   y="9"
                 ></use>
-              </svg></span>
-</button></div></div>
+              </svg></span></button>
+  <form class="myform">
+      <h2 class="windowform">Zostaw swoje dane w formularzu poniżej</h2>
+    <fieldset class="fieldset">
+    <label class="label" for="name">Imie</label>
+     <svg class="namecheckbox">
+     <use
+    href="./images/icons.svg#icon-namecheckbox"
+    width="12"
+    height="12"
+    ></use>
+   </svg>
+    <input class="input" type="text" id="name"/>
+  </fieldset>
+
+   <fieldset class="fieldset">
+    <label class="label" for="phone">Telefon</label>
+     <svg class="namecheckbox1">
+     <use
+    href="./images/icons.svg#icon-phonecheckbox"
+    width="13"
+    height="13"
+    ></use>
+   </svg>
+    <input class="input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" id="phone"/>
+
+  </fieldset>
+
+  <fieldset class="fieldset">
+    <label class="label" for="email">Email</label>
+     <svg class="namecheckbox2">
+     <use
+    href="./images/icons.svg#icon-mailcheckbox"
+    width="15"
+    height="12"
+    ></use>
+   </svg>
+    <input class="input" type="email" id="email"/>
+  </fieldset>
+<fieldset class="fieldset1"><label class="label" for="text">Komentarz</label>
+    <input class="input1" type="text" id="text"/>
+  </fieldset>
+ <fieldset class="fieldset2"><label>
+  <input class="checkboxinput" type="checkbox"/> Oświadczam iż akceptuję <a href="#terms-and-conditions">Regulamin</a> i
+  <a href="#privacy-policy">Politykę Prywatności.</a>
+  <span class="vector">
+  <svg>
+  <use href="./images/icons.svg#icon-vectorcheckbox"
+    width="11"
+    height="8">
+  </use>
+  </svg>
+  </span>
+</label></fieldset>
+ <button class="send" type="submit">Wyślij</button>
+
+</form> 
+
+</div></div>
 
           </div>
         </div></div>
