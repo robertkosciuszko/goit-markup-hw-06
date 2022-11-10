@@ -587,7 +587,6 @@ border-radius: 50%;
     display: block;
     margin: 0;
     padding-top: 72px;
-    padding-left: 70px;
     margin-left: 70px;
 }
 
@@ -811,7 +810,7 @@ text-align: left;
 }
 .register{
     display: block;
-    margin-left: 78px;
+    margin-left: 90px;
 
 }
 
@@ -952,7 +951,6 @@ text-align: left;
     margin-top: 14px;
     margin-right: 5px;
     fill: var(--colorclientsheader);
-
 }
 .myform .input:focus{
     outline: 0;
@@ -979,7 +977,6 @@ text-align: left;
     color: #212121;
     margin: 40px 40px 30px 40px
 }
-
 .checkboxinput{
     position: relative;
     text-align: center;
@@ -988,12 +985,26 @@ text-align: left;
     border-radius: 2px;  
 }
 .vector{
-    position:absolute;
-    margin-top: 5px;
-    margin-left: -387px;
+    position: absolute;
+        top: 2px;
+        left: 0;
+        fill: var(--main-white);
+        width: 16px;
+        height: 16px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+}
+.vector1{
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+.checkboxinput:checked~.vector {
     fill: var(--main-white);
-    width: 16px;
-    height: 15px; 
+    background: var(--main-blue);
+    border-radius: 2px;
+    border: 1px solid;
 }
 
 .send{
